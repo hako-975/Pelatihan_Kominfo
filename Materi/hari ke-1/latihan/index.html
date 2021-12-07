@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Validasi Form</title>
+<link href="style.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+<div id="main">
+<h3>Validasi Form </h3>
+
+<form class="contact_form" action="" method="">
+<ul>
+<li>
+<label for="name">Name :</label>
+<input type="text" name="name" placeholder="Nama lengkap" required>
+</li>
+<li>
+<label for="email">Email :</label>
+<input type="email" type="text" placeholder="email@domainweb" required>
+<span class="form_hint">example "name@email.com"</span>
+</li>
+<li>
+<label for="website">Website :</label>
+<input name="website" type="text" placeholder="alamatweb" required
+pattern="(http|https)://.+">
+<span class="form_hint">example "http://someaddress.com"</span>
+</li>
+<li>
+<label for="message">Message:</label>
+<textarea name="message" cols="40" rows="6" required></textarea>
+</li>
+<li>
+<button class="submit" type="submit">Submit Form</button>
+</li>
+</ul>
+</form>
+</div>
+</body>
+</html>

@@ -1,0 +1,11 @@
+DML
+1. Insert/input : INSERT INTO nama_table (field1, field2, field3, ...)
+VALUES (nilai1, nilai2, nilai3, ...); 
+contoh : INSERT INTO mahasiswa (Nim,nama,alamat) VALUES (202020,"Jodi","bandung")
+2. Update : UPDATE nama_table SET field1 = nilai1, field2 = nilai2, ... WHERE kondisi;
+Contoh : UPDATE mahasiswa SET Nama = "Johan" WHERE NIK="20212444"
+3. Delete : DELETE FROM nama_table WHERE kondisi
+Contoh : DELETE FROM mahasiswa WHERE nim="202020"
+
+
+
