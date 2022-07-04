@@ -1,0 +1,51 @@
+Router1
+
+Router>en
+Router#conf t
+Router(config)#int gig0/0
+Router(config-if)#ip add 192.168.11.1 255.255.255.224
+Router(config-if)#no sh
+
+Router(config)#int gig0/1
+Router(config-if)#ip add 192.168.11.33 255.255.255.224
+Router(config-if)#no sh
+
+Router(config-if)#router rip
+Router(config-if)#network 192.168.11.1
+Router(config-if)#network 192.168.11.33
+
+
+
+Router2
+Router>en
+Router#conf t
+Router(config)#int gig0/0
+Router(config-if)#ip add 192.168.11.34 255.255.255.224
+Router(config-if)#no sh
+
+Router(config)#int gig0/1
+Router(config-if)#ip add 192.168.11.65 255.255.255.224
+Router(config-if)#no sh
+Router(config-if)#router rip
+Router(config-router)#network 192.168.11.34
+Router(config-router)#network 192.168.11.65
+
+Router(config-if)#int gig0/2
+Router(config-if)#ip add 192.168.11.97 255.255.255.224
+Router(config-if)#no sh
+
+
+Router3
+Router>en
+Router#conf t
+Router(config)#int gig0/0
+Router(config-if)#ip add 192.168.11.98 255.255.255.224
+Router(config-if)#no sh
+
+Router(config-if)#int gig0/1
+Router(config-if)#ip add 192.168.11.129 255.255.255.224
+Router(config-if)#no sh
+
+Router(config-if)#router rip
+Router(config-router)#network 192.168.11.98
+Router(config-router)#network 192.168.11.129
