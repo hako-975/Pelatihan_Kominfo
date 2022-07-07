@@ -1,25 +1,27 @@
-#R-1 SETTING OSPF 1
-  R-1(config)#router ospf 1
-  R-1(config-router)#network 192.168.11.0 0.0.0.31 area 0
-  R-1(config-router)#network 192.169.11.0 0.0.0.255 area 0
-  copy running-config startup-config
+SETTING OSPF 1
 
-#R-2
-  R-2(config)#router ospf 1
-  R-2(config-router)#network 192.168.11.32 0.0.0.31 area 0
-  R-2(config-router)#network 192.169.11.0 0.0.0.255 area 0
-  R-2(config-router)#network 192.170.11.0 0.0.0.255 area 0  
-  copy running-config startup-config
+R1(config)       # router ospf 1
+R1(config-router)# network 192.168.11.0 0.0.0.31 area 0
+R1(config-router)# network 192.169.11.0 0.0.0.255 area 0
+R1(config-router)# copy running-config startup-config
 
-#R-3
-  R-3(config)#router ospf 1
-  R-3(config-router)#network 192.170.11.0 0.0.0.255 area 0
-  R-3(config-router)#network 192.168.11.64 0.0.0.31 area 0
-  copy running-config startup-config
+#R2
+R2(config)       # router ospf 1
+R2(config-router)# network 192.168.11.32 0.0.0.31 area 0
+R2(config-router)# network 192.169.11.0 0.0.0.255 area 0
+R2(config-router)# network 192.170.11.0 0.0.0.255 area 0  
+R2(config-router)# copy running-config startup-config
+
+#R3
+R3(config)       # router ospf 1
+R3(config-router)# network 192.168.11.64 0.0.0.31 area 0
+R3(config-router)# network 192.170.11.0 0.0.0.255 area 0
+  R3(config-router)# copy running-config startup-config
 
 
 -----------------------------------------------------------------
 Setting DHCP Pool
+
 R1             > enable
 R1             # configure terminal 
 R1(config)     # hostname RouterJakarta
