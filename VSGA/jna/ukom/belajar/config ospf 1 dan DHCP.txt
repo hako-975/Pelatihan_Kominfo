@@ -3,21 +3,29 @@ SETTING OSPF 1
 R1(config)       # router ospf 1
 R1(config-router)# network 192.168.11.0 0.0.0.31 area 0
 R1(config-router)# network 192.169.11.0 0.0.0.255 area 0
-R1(config-router)# copy running-config startup-config
+R1(config-router)# exit
+R1(config)# exit
+R1# copy running-config startup-config
+Enter
 
 #R2
 R2(config)       # router ospf 1
 R2(config-router)# network 192.168.11.32 0.0.0.31 area 0
 R2(config-router)# network 192.169.11.0 0.0.0.255 area 0
 R2(config-router)# network 192.170.11.0 0.0.0.255 area 0  
-R2(config-router)# copy running-config startup-config
+R2(config-router)# exit
+R2(config)# exit
+R2# copy running-config startup-config
+Enter
 
 #R3
 R3(config)       # router ospf 1
 R3(config-router)# network 192.168.11.64 0.0.0.31 area 0
 R3(config-router)# network 192.170.11.0 0.0.0.255 area 0
-  R3(config-router)# copy running-config startup-config
-
+R3(config-router)# exit
+R3(config)# exit
+R3# copy running-config startup-config
+Enter
 
 -----------------------------------------------------------------
 Setting DHCP Pool
