@@ -1,0 +1,70 @@
+1. Buatlah langkah kerja identifikasi dan perencanaan dalam pembuatan animation explainer dengan study kasus perubahan pedulilindungi menjadi satu sehat!
+Berikut ini adalah langkah-langkah identifikasi dan perencanaan dalam pembuatan animasi explainer dengan studi kasus perubahan PeduliLindungi menjadi Satu Sehat:
+
+Identifikasi Tujuan:
+Tentukan tujuan dari pembuatan animasi explainer, apakah untuk memperkenalkan Satu Sehat kepada masyarakat atau untuk memberikan pemahaman tentang perubahan dari PeduliLindungi menjadi Satu Sehat.
+
+Identifikasi Audiens:
+Tentukan siapa target audiens yang akan dituju. Apakah untuk umum atau untuk kelompok tertentu seperti pelajar atau tenaga kesehatan.
+
+Identifikasi Pesan Utama:
+Tentukan pesan utama yang ingin disampaikan dalam animasi explainer. Misalnya, menjelaskan apa itu Satu Sehat, bagaimana menggunakannya, dan manfaatnya bagi masyarakat.
+
+Identifikasi Gaya Animasi:
+Pilih gaya animasi yang sesuai dengan tujuan dan audiens. Misalnya, apakah animasi explainer harus mengikuti gaya kartun atau lebih serius dengan grafis 3D.
+
+Identifikasi Durasi Animasi:
+Tentukan durasi animasi explainer yang tepat agar dapat menyampaikan pesan dengan jelas dan mudah dipahami oleh audiens.
+
+Identifikasi Skrip dan Narasi:
+Tulis skrip dan narasi yang jelas, singkat, dan padat, serta dapat menyampaikan pesan dengan baik. Pastikan narasi tidak terlalu cepat atau lambat dan sesuai dengan durasi animasi.
+
+Identifikasi Musik dan Efek Suara:
+Pilih musik dan efek suara yang sesuai dengan tujuan, pesan, dan audiens animasi explainer.
+
+Perencanaan Visual:
+Rancang sketsa visual animasi explainer yang menarik dan sesuai dengan pesan yang ingin disampaikan.
+
+Animasi dan Produksi:
+Buat animasi explainer dan tambahkan narasi, musik, dan efek suara yang telah dipilih. Pastikan animasi explainer sudah sesuai dengan sketsa visual yang telah direncanakan.
+
+Uji Coba dan Evaluasi:
+Uji coba animasi explainer pada beberapa orang untuk mengetahui respon mereka. Lakukan evaluasi terhadap animasi explainer dan lakukan perbaikan jika diperlukan.
+
+Demikianlah langkah-langkah identifikasi dan perencanaan dalam pembuatan animasi explainer dengan studi kasus perubahan PeduliLindungi menjadi Satu Sehat. Dalam pembuatan animasi explainer, pastikan untuk selalu berfokus pada pesan utama yang ingin disampaikan dan gunakan gaya animasi dan teknik yang tepat untuk mencapai tujuan yang diinginkan.
+
+
+2. Jelaskan kepanjangan dari SKKNI & KKNI!
+Standar Kompetensi Kerja Nasional Indonesia (SKKNI)
+Kerangka Kualifikasi Nasional Indonesia (KKNI)
+
+3. Buatlah urutan atau tahapan dalam membuat 3d modeler sesuai SOP!
+
+
+4. Jelaskan apa itu extrude!
+Extrude pada Maya adalah salah satu perintah atau tool untuk memperpanjang, memperluas, atau mengambil objek 3D dalam program Autodesk Maya. Dalam proses pembuatan objek 3D, extrude merupakan salah satu teknik dasar dalam membuat bentuk yang kompleks atau detail pada permukaan objek.
+
+Dengan menggunakan perintah Extrude, pengguna Maya dapat membuat bentuk atau detail baru pada permukaan objek 3D, baik itu bentuk datar atau melengkung. Perintah Extrude memungkinkan pengguna Maya untuk mengubah permukaan objek, baik itu memperluas, memperpanjang, atau mengekstrak permukaan objek menjadi bentuk yang lebih kompleks.
+
+Secara umum, penggunaan perintah Extrude dalam Maya tergantung pada jenis objek 3D yang akan dibuat atau diubah. Misalnya, dalam pembuatan karakter 3D, perintah Extrude dapat digunakan untuk membuat bentuk wajah, bulu, atau bagian tubuh lainnya. Sedangkan pada pembuatan objek arsitektur, Extrude dapat digunakan untuk membuat detail pada permukaan bangunan seperti jendela, pintu, atau ornamen.
+
+Dalam penggunaan Extrude pada Maya, pengguna dapat menentukan parameter seperti jarak extrude, lebar extrude, sudut extrude, dan jumlah langkah extrude, sehingga hasil akhir dari objek 3D yang dibuat dapat lebih akurat dan sesuai dengan yang diinginkan.
+
+5. Gambarkan sebuah kubus dan tunjukkan bagian-bagian dalam marking menu software 3d!
+Berikut adalah penjelasan singkat mengenai bagian-bagian dalam marking menu pada Maya 3D:
+
+Select: Bagian ini digunakan untuk memilih objek atau komponen dalam objek seperti verteks, edge, atau face. Terdapat empat pilihan seleksi, yaitu object, vertex, edge, dan face.
+
+Move: Bagian ini digunakan untuk mengubah posisi objek atau komponen dalam objek pada sumbu X, Y, atau Z. Terdapat tiga pilihan pergerakan, yaitu move X, move Y, dan move Z.
+
+Rotate: Bagian ini digunakan untuk memutar objek atau komponen dalam objek pada sumbu X, Y, atau Z. Terdapat tiga pilihan rotasi, yaitu rotate X, rotate Y, dan rotate Z.
+
+Scale: Bagian ini digunakan untuk mengubah ukuran objek atau komponen dalam objek pada sumbu X, Y, atau Z. Terdapat tiga pilihan skala, yaitu scale X, scale Y, dan scale Z.
+
+Show Manipulator: Bagian ini digunakan untuk menampilkan manipulator. Manipulator berfungsi sebagai alat bantu dalam melakukan transformasi pada objek atau komponen dalam objek.
+
+Paint Selection: Bagian ini digunakan untuk melakukan seleksi dengan menggunakan brush. Pilihan ini berguna saat memilih objek atau komponen dalam objek yang memiliki poligon yang banyak atau kompleks.
+
+Snap: Bagian ini digunakan untuk mengaktifkan snap tool. Snap tool berfungsi untuk membantu pengguna dalam menempatkan objek pada posisi yang presisi atau sesuai dengan grid.
+
+Tool Settings: Bagian ini digunakan untuk membuka pengaturan tool yang sedang aktif. Pilihan ini memungkinkan pengguna untuk mengubah beberapa parameter seperti jarak, sudut, dan jumlah langkah pada tool yang sedang aktif.
